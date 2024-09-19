@@ -2,7 +2,7 @@
 
 //#include <iostream>
 //#include "glm.hpp"
-#include "./include/main.hpp"
+#include "./include/main.h"
 
 int main() {
 

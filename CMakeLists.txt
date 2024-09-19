@@ -24,7 +24,7 @@ enable_warnings(Raytracing)
 # Add the include directory for headers
 # include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# Add glm to project
+# Add glm to project and source because it forgot where it was stupid fucking idiot program
 # set(glm_DIR ${PROJECT_SOURCE_DIR}/ext/glm)
 # find_package(glm REQUIRED)
 # add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glm)

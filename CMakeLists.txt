@@ -25,7 +25,7 @@ enable_warnings(Raytracing)
 # include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Add glm to project
-add_subdirectory(ext/glm)
 #set(glm_DIR ${PROJECT_SOURCE_DIR}/ext/glm)
 # find_package(glm REQUIRED)
+add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glm)
 target_link_libraries(Raytracing PUBLIC glm::glm)

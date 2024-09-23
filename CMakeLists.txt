@@ -25,8 +25,7 @@ enable_warnings(Raytracing)
 # include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # /////////////////////////////////////////////////////////////
-# Adds glm and source to project because it forgot where the main project was, stupid idiot program.
-# Don't mind this I left this here to show that there are multiple ways of linking to an external way but they don't work as well with Visual studio. 
+# Don't mind this I left this here to show that there are multiple ways of linking to an external library but they don't work as well with Visual Studio. 
 
 # set(glm_DIR ${PROJECT_SOURCE_DIR}/ext/glm)
 # find_package(glm REQUIRED)
